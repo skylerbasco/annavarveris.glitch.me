@@ -76,16 +76,16 @@ window.onload=function(){
                 <a href="index.html" class="nav-logo">Anna Varveris</a>
                 <ul class="nav-menu">
                     <li class="nav-item">
-                        <a href="index.html" class="nav-link">Home</a>
+                        <a href="#home" class="nav-link">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="about.html" class="nav-link">Work</a>
+                        <a href="#work" class="nav-link">Work</a>
                     </li>
                     <li class="nav-item">
-                        <a href="videos.html" class="nav-link">About</a>
+                        <a href="#about" class="nav-link">About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="projects.html" class="nav-link">Contact</a>
+                        <a href="#contact" class="nav-link">Contact</a>
                     </li>
                 </ul>
                 <div class="hamburger">
@@ -98,14 +98,14 @@ window.onload=function(){
     <div class="wrapper">
       
       <!-- HOME -->
-      <div class="content" role="main">
+      <div class="content" role="main" id="home">
         <!-- This is the start of content for our page --> 
        <br/>
         <br/>
         <br/>
         
         <img
-          src="https://cdn.glitch.global/8ce6616c-afce-4093-8825-722815cc3636/51E13F53-6B6B-4FBD-8FF4-DCD3DD952732.png?v=1648063423153"
+          src="https://cdn.glitch.global/8ce6616c-afce-4093-8825-722815cc3636/97B96F2E-138F-4F16-8548-663B54FABF4E.png?v=1648583632748"
           class="illustration"
           alt="Editor illustration"
           title="Click the image!"
@@ -120,7 +120,7 @@ window.onload=function(){
             Passionate about diplomacy and advocacy of global issues
             <br/>
             <br/>
-            ↳ International Relations Student at Adeplhi University
+            ↳ International Relations Student at <a href="https://www.adelphi.edu">Adelphi University</a>  
             <br/>
             <br/>
             ↳ Environmental Law and Development Enthusiast
@@ -137,7 +137,7 @@ window.onload=function(){
      
       <!-- WORK -->
     <div class="content" role="main">
-      <h1 class="title">Work</h1>
+      <h1 class="title" id="work">Work</h1>
       <p>
         Explore the work I've done on topics ranging from cultural studies to environmental policy! 
       </p>
@@ -156,13 +156,15 @@ window.onload=function(){
         
       </p>
       <a
-                class="general-button"
-                href="https://www.youtube.com/c/SkylerBasco"
+                class="button-test"
+                href="https://docs.google.com/document/d/1dKfGdyz2MHsY_h5DiFWCUuwaOkgfncmNRhDSAs4ipWA/edit"
                 target="_blank"
                 rel="noopener noreferrer"
             >
                 Read the full paper!
             </a>
+      
+    
       <br/>
       
       <h2>
@@ -172,8 +174,8 @@ window.onload=function(){
         As a class representative, I connect with other students in my grade and inform them of opportunities within the program, as well as help out with Student Council events.
       </p>
       <a
-                class="general-button"
-                href="https://www.youtube.com/c/SkylerBasco"
+                class="button-test"
+                href="https://www.linkedin.com/in/annavarveris"
                 target="_blank"
                 rel="noopener noreferrer"
             >
@@ -188,8 +190,8 @@ window.onload=function(){
          Through my involvement in this organization, I have spoken about my experience as a person of Latina descent growing up in the United States, as well as issues within our community. 
       </p>
       <a
-                class="general-button"
-                href="https://www.youtube.com/c/SkylerBasco"
+                class="button-test"
+                href="https://www.linkedin.com/in/annavarveris"
                 target="_blank"
                 rel="noopener noreferrer"
             >
@@ -210,7 +212,14 @@ window.onload=function(){
       
       <!-- ABOUT -->
     <div class="content" role="main">
-      <h1 class="title">About</h1>
+      <h1 class="title" id="about">About</h1>
+      <br/>
+      <img
+          src="https://cdn.glitch.global/8ce6616c-afce-4093-8825-722815cc3636/791431FA-C803-47C0-BA44-1A2AD85F2438.png?v=1648583629871"
+          class="illustration"
+          alt="Editor illustration"
+          title="Click the image!"
+        />
       <p>
 Growing up in a Greek-Dominican household, I have
 always been open to learning new perspectives and
@@ -225,10 +234,10 @@ degree, I hope to build a better tomorrow through the
 efforts of diplomacy and advocacy of global issues.
 <br/>
 <br/>
-At Adelphi University, I am part of the Levermore Global
+At Adelphi University, I am a part of the Levermore Global
 Scholars Program, an "academic community dedicated
 to preparing students to become global thinkers and
-leaders in a changing world." Additionally, I am part of
+leaders in a changing world." I am also a part of
 the Environment Action Coalition, Latino Students
 Association and the International Students Society to
 further expand my knowledge on global and regional
@@ -239,7 +248,7 @@ issues.
       <br/>
        <!-- CONTACT -->
     <div class="content" role="main">
-      <h1 class="title">Contact</h1>
+      <h1 class="title" id="contact">Contact</h1>
       <p>
 Let's connect and chat more on how we can
 work together! 
@@ -251,6 +260,7 @@ work together!
 >
   <label>
     Your email:
+    <br/>
     <input type="email" name="email">
   </label>
         <br/>
@@ -263,7 +273,7 @@ work together!
 <br/>
         <br/>
   <!-- your other form fields go here -->
-  <button type="submit">Send</button>
+  <button type="submit" class="button-test">Submit</button>
 </form>
     </div>
       
