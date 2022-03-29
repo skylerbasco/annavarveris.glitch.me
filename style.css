@@ -164,7 +164,9 @@ background-color: white;
 /* ABOUT */
 
 /* CONTACT */
-
+.label {
+width: 1000px !important;
+}
 /* FOOTER */
 footer {
 text-align: center;
