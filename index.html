@@ -46,6 +46,19 @@
     <!-- Import the webpage's javascript file -->
 <script src="https://kit.fontawesome.com/66aa7c98b3.js" crossorigin="anonymous"></script>
     <script src="/script.js" defer></script>
+  <script> 
+window.onload=function(){
+    const hamburger = document.querySelector(".hamburger");
+    const navMenu = document.querySelector(".nav-menu");
+    
+    hamburger.addEventListener("click", mobileMenu);
+    
+    function mobileMenu() {
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+    }
+    }
+    </script>
   </head>
   <body>
     <!--
@@ -87,6 +100,10 @@
       <!-- HOME -->
       <div class="content" role="main">
         <!-- This is the start of content for our page --> 
+       <br/>
+        <br/>
+        <br/>
+        
         <img
           src="https://cdn.glitch.global/8ce6616c-afce-4093-8825-722815cc3636/51E13F53-6B6B-4FBD-8FF4-DCD3DD952732.png?v=1648063423153"
           class="illustration"
@@ -218,13 +235,14 @@ further expand my knowledge on global and regional
 issues.
       </p>
     </div>
-      
+     
+      <br/>
        <!-- CONTACT -->
     <div class="content" role="main">
       <h1 class="title">Contact</h1>
       <p>
 Let's connect and chat more on how we can
-work together!
+work together! 
       </p>
       
       <form
